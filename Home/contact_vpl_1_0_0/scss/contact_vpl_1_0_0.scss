@@ -1,0 +1,47 @@
+.contact_vpl_1_0_0 {
+    padding: 30px 0;
+    &__wrapper {
+        border: 2px DASHED RED;
+        padding-right: 25px;
+        margin: 10px 0;
+        border-radius: 5px;
+        background-color: #fcfccb;
+        font-size: 14px;
+        padding: 20px 10px;
+    }
+    &__title {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0 0 10px
+    }
+    &__btn {
+        position: relative;
+        background: linear-gradient(to right, #11a818, #0cdc16);
+        padding: 5px 20px 5px 40px;
+        display: block;
+        width: fit-content;
+        margin: 0 auto 10px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        border-radius: 8px;
+        box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);
+        border: 1px solid #fff;
+        transition: all 0.2s linear;
+        &::before {
+            content: '';
+            position: absolute;
+            background: url(../images/contact_vpl_1_0_0-phone.svg) center 0 no-repeat;
+            background-size: 100%;
+            width: 20px;
+            height: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 12px;
+        }
+        &:hover {
+            box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+        }
+    }
+}
