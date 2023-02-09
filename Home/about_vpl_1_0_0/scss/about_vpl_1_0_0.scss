@@ -1,14 +1,14 @@
 .about_vpl_1_0_0 {
     padding: 30px 0 0;
     &__title {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: bold;
         text-transform: uppercase;
         margin: 0 0 10px
     }
     &__content {
         text-align: justify;
-        font-size: 14px;
+        font-size: 16px;
         p {
             img {
                 width: 100%;
@@ -23,7 +23,7 @@
         margin: 10px 0;
         border-radius: 5px;
         background-color: #fcfccb;
-        font-size: 14px;
+        font-size: 16px;
         padding: 20px 10px;
     }
     &__priceImg {
