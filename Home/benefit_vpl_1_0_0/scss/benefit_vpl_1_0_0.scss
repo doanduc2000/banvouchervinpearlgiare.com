@@ -1,5 +1,5 @@
 .benefit_vpl_1_0_0 {
-    padding: 20px 0 30px;
+    padding: 20px 0 20px;
     &__box {
         display: flex;
         justify-content: center;
@@ -70,6 +70,19 @@
         }
         &__video {
             width: 80%;
+            margin-bottom: 20px;
+        }
+        &__content {
+            width: 100%;
+            margin: 0;
+        }
+    }
+    @media(max-width: 767px) {
+        &__title {
+            text-align: center;
+        }
+        &__video {
+            width: 100%;
             margin-bottom: 20px;
         }
         &__content {
