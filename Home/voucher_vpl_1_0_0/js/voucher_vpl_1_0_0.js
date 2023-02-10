@@ -110,33 +110,48 @@ const voucher_vpl_1_0_0Data = [{
         name: 'VINPEARL CẦN THƠ HOTEL',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
-    }, {
-        name: 'VINPEARL CẦN THƠ HOTEL',
-        link: '#',
-        img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
-    }, {
-        name: 'VINPEARL CẦN THƠ HOTEL',
-        link: '#',
-        img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }]
 }]
 const voucher_vpl_1_0_0Temp = (data) => {
-    let voucherItem = ''
-    data.vouchers.forEach(item => {
-        voucherItem += ` <a href="${item.link}" class="voucher_vpl_1_0_0__item">
+        var vouchers = []
+        let voucherItem = ''
+        let limit = 4
+        if (window.innerWidth < 913 && window.innerWidth > 767) {
+            limit = 3
+        } else if (window.innerWidth < 768) {
+            limit = 2
+        } else {
+            limit = 4
+        }
+        if (data.vouchers.length <= limit) {
+            vouchers = data.vouchers
+        } else {
+            for (let i = 0; i < limit; i++) {
+                vouchers.push(data.vouchers[i])
+            }
+        }
+        vouchers.forEach(item => {
+            voucherItem += ` <a href="${item.link}" class="voucher_vpl_1_0_0__item">
         <div class="voucher_vpl_1_0_0__img">
             <img width="219" height="148" src="${item.img}" alt="">
         </div>
         <p>${item.name}</p>
     </a>`
-    })
-    return `<div class="voucher_vpl_1_0_0__wrapper">
-    <div class="voucher_vpl_1_0_0__title">${data.name}</div>
+        })
+
+
+        return `<div class="voucher_vpl_1_0_0__wrapper">
+    <h2 class="voucher_vpl_1_0_0__title">${data.name}</h2>
     <div class="voucher_vpl_1_0_0__box">
       ${voucherItem}
     </div>
+    ${data.vouchers.length > limit ? `<div class="voucher_vpl_1_0_0__viewMore"><button onclick="">Xem thêm >></button></div>`:''}
 </div>`
 }
+
+const render=()=>{
 for (let i = 0; i < voucher_vpl_1_0_0Data.length; i++) {
     document.getElementById('voucher_vpl_1_0_0__root').insertAdjacentHTML("beforeend", voucher_vpl_1_0_0Temp(voucher_vpl_1_0_0Data[i]))
 }
+}
+render()
