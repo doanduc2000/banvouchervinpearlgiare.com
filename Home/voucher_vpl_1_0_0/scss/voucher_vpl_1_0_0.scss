@@ -23,7 +23,7 @@
             margin-right: 0px;
         }
         p {
-            margin: 5px 0 10px;
+            margin: 0px 0 10px;
             font-size: 14px;
             font-weight: 600;
             transition: all 0.2s linear;
@@ -31,20 +31,23 @@
         }
     }
     &__item:hover {
-        transform: scale(1.02);
+        .voucher_vpl_1_0_0__img {
+            img {
+                transform: scale(1.02);
+            }
+        }
         p {
             color: #fcb900;
         }
     }
     &__img {
-        padding: 5px;
-        border-radius: 6px;
+        margin: 10px;
         overflow: hidden;
         img {
             width: 100%;
             height: auto;
             display: block;
-            border-radius: 6px;
+            transition: all 0.2s linear;
         }
     }
     &__wrapper {
