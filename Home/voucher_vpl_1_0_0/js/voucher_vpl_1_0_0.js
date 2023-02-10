@@ -138,8 +138,6 @@ const voucher_vpl_1_0_0Temp = (data) => {
         <p>${item.name}</p>
     </a>`
         })
-
-
         return `<div class="voucher_vpl_1_0_0__wrapper">
     <h2 class="voucher_vpl_1_0_0__title">${data.name}</h2>
     <div class="voucher_vpl_1_0_0__box">
@@ -150,8 +148,9 @@ const voucher_vpl_1_0_0Temp = (data) => {
 }
 
 const render=()=>{
+    document.getElementById('voucher_vpl_1_0_0__root').innerHTML=''
 for (let i = 0; i < voucher_vpl_1_0_0Data.length; i++) {
-    document.getElementById('voucher_vpl_1_0_0__root').insertAdjacentHTML("beforeend", voucher_vpl_1_0_0Temp(voucher_vpl_1_0_0Data[i]))
+   document.getElementById('voucher_vpl_1_0_0__root').insertAdjacentHTML("beforeend", voucher_vpl_1_0_0Temp(voucher_vpl_1_0_0Data[i]))
 }
 }
 render()
