@@ -1,47 +1,73 @@
 .voucher_vpl_1_0_0 {
     &__title {
-        font-size: 18px;
+        font-size: 24px;
         font-weight: bold;
-        text-transform: uppercase;
+        text-transform: capitalize;
         margin: 0 0 10px;
-        color: #182975;
+        color: #3f3b3b;
     }
     &__box {
         display: flex;
         margin-bottom: 10px;
     }
     &__item {
+        position: relative;
         display: block;
         width: 25%;
         margin-right: 15px;
-        text-align: center;
         transition: all 0.2s linear;
         background: #fff;
         &:last-child {
             margin-right: 0px;
         }
-        p {
-            margin: 0;
-            font-size: 14px;
-            font-weight: 600;
-            transition: all 0.2s linear;
-            padding: 10px;
-            border: 1px solid #e4e4e6;
-            span {
-                color: #c00;
-                font-weight: 500;
-                display: block;
-            }
-        }
     }
     &__item:hover {
-        .voucher_vpl_1_0_0__img {
-            img {
-                transform: scale(1.02);
-            }
+        background: #e4f0fa;
+    }
+    &__promo {
+        z-index: 1;
+        font-weight: 600;
+        font-size: 13px;
+        text-align: center;
+        position: absolute;
+        color: #FFFFFF;
+        margin: 0 0px 0px -10px;
+        background-color: #E52822;
+        top: 15px;
+        box-shadow: 0 1px 2px rgb(0 0 0 / 12%), 0 0px 2px rgb(0 0 0 / 24%);
+        padding: 5px 10px 5px 10px;
+        &::before {
+            content: '';
+            position: absolute;
+            border-style: solid;
+            border-color: transparent;
+            bottom: -10px;
+            border-width: 0 10px 10px 0;
+            border-right-color: #9C0000;
+            left: 0;
         }
+    }
+    &__text {
+        margin: 0;
+        transition: all 0.2s linear;
+        padding: 10px;
+        border: 1px solid #e4e4e6;
         p {
-            color: #fcb900;
+            color: #003C71;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+        span {
+            color: #f79321;
+            font-weight: 600;
+            display: block;
+            text-align: end;
+            font-size: 22px;
+            small {
+                font-weight: 300;
+                font-size: 13px;
+            }
         }
     }
     &__img {
@@ -108,11 +134,31 @@
         &__item {
             width: 48%;
             margin: 0 10px 10px 0;
-            p {
-                font-size: 12px;
-            }
             &:nth-child(2n) {
                 margin-right: 0px;
+            }
+        }
+        &__text {
+            p {
+                font-size: 14px;
+            }
+            span {
+                font-size: 18px;
+            }
+        }
+        &__promo {
+            font-size: 10px;
+            padding: 5px;
+            margin: 0 0 0 -5px;
+            &::before {
+                content: '';
+                position: absolute;
+                border-style: solid;
+                border-color: transparent;
+                bottom: -5px;
+                border-width: 0 5px 5px 0;
+                border-right-color: #9C0000;
+                left: 0;
             }
         }
     }

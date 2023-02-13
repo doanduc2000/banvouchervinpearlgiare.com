@@ -1,136 +1,136 @@
 const voucher_vpl_1_0_0Url = 'Home/voucher_vpl_1_0_0/'
 const voucher_vpl_1_0_0Data = [{
     id: '1',
-    name: 'VOUCHER VINPEARL NHA TRANG',
+    name: 'voucher vinpearl nha trang',
     vouchers: [{
-        name: 'VINPEARL NHA TRANG BAY',
-        price: '2.000.000đ',
+        name: 'vinpearl nha trang bay',
+        price: '2.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }, {
-        name: 'VINPEARL NHA TRANG BAY',
-        price: '2.000.000đ',
+        name: 'vinpearl nha trang bay',
+        price: '2.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
     }, {
-        name: 'VINPEARL NHA TRANG BAY',
-        price: '2.000.000đ',
+        name: 'vinpearl nha trang bay',
+        price: '2.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }, {
-        name: 'VINPEARL NHA TRANG BAY',
-        price: '2.000.000đ',
+        name: 'vinpearl nha trang bay',
+        price: '2.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
     }, {
-        name: 'VINPEARL NHA TRANG BAY',
-        price: '2.000.000đ',
+        name: 'vinpearl nha trang bay',
+        price: '2.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }]
 }, {
     id: '2',
-    name: 'VOUCHER VINPEARL PHÚ QUỐC',
+    name: 'voucher vinpearl phú quốc',
     vouchers: [{
-        name: 'VINPEARL DISCOVERY PHÚ QUỐC',
-        price: '3.000.000đ',
+        name: 'vinpearl discovery phú quốc',
+        price: '3.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }, {
-        name: 'VINPEARL DISCOVERY PHÚ QUỐC',
-        price: '3.000.000đ',
+        name: 'vinpearl discovery phú quốc',
+        price: '3.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
     }, {
-        name: 'VINPEARL DISCOVERY PHÚ QUỐC',
-        price: '3.000.000đ',
+        name: 'vinpearl discovery phú quốc',
+        price: '3.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }, {
-        name: 'VINPEARL DISCOVERY PHÚ QUỐC',
-        price: '3.000.000đ',
+        name: 'vinpearl discovery phú quốc',
+        price: '3.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
     }, {
-        name: 'VINPEARL DISCOVERY PHÚ QUỐC',
-        price: '3.000.000đ',
+        name: 'vinpearl discovery phú quốc',
+        price: '3.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }]
 }, {
     id: '3',
-    name: 'VOUCHER VINPEARL Đà nẵng',
+    name: 'voucher vinpearl đà nẵng',
     vouchers: [{
-        name: 'VINPEARL ĐÀ NẴNG RESORT',
-        price: '5.000.000đ',
+        name: 'vinpearl đà nẵng resort',
+        price: '5.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }, {
-        name: 'VINPEARL ĐÀ NẴNG RESORT',
-        price: '5.000.000đ',
+        name: 'vinpearl đà nẵng resort',
+        price: '5.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
     }, {
-        name: 'VINPEARL ĐÀ NẴNG RESORT',
-        price: '5.000.000đ',
+        name: 'vinpearl đà nẵng resort',
+        price: '5.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }, {
-        name: 'VINPEARL ĐÀ NẴNG RESORT',
-        price: '5.000.000đ',
+        name: 'vinpearl đà nẵng resort',
+        price: '5.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
     }, {
-        name: 'VINPEARL ĐÀ NẴNG RESORT',
-        price: '5.000.000đ',
+        name: 'vinpearl đà nẵng resort',
+        price: '5.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }]
 }, {
     id: '4',
-    name: 'VOUCHER TẠI VINPEARL KHÁC ',
+    name: 'voucher tại vinpearl khác ',
     vouchers: [{
-        name: 'VINPEARL HẠ LONG RESORT',
-        price: '6.000.000đ',
+        name: 'vinpearl hạ long resort',
+        price: '6.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }, {
-        name: 'VINPEARL HẠ LONG RESORT',
-        price: '6.000.000đ',
+        name: 'vinpearl hạ long resort',
+        price: '6.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
     }, {
-        name: 'VINPEARL HẠ LONG RESORT',
-        price: '6.000.000đ',
+        name: 'vinpearl hạ long resort',
+        price: '6.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }, {
-        name: 'VINPEARL HẠ LONG RESORT',
-        price: '6.000.000đ',
+        name: 'vinpearl hạ long resort',
+        price: '6.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
     }, {
-        name: 'VINPEARL HẠ LONG RESORT',
-        price: '6.000.000đ',
+        name: 'vinpearl hạ long resort',
+        price: '6.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }]
 }, {
     id: '5',
-    name: 'VOUCHER KHÁCH SẠN VINPEARL',
+    name: 'voucher khách sạn vinpearl',
     vouchers: [{
-        name: 'VINPEARL CẦN THƠ HOTEL',
-        price: '4.000.000đ',
+        name: 'vinpearl cần thơ hotel',
+        price: '4.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }, {
-        name: 'VINPEARL CẦN THƠ HOTEL',
-        price: '4.000.000đ',
+        name: 'vinpearl cần thơ hotel',
+        price: '4.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
     }, {
-        name: 'VINPEARL CẦN THƠ HOTEL',
-        price: '4.000.000đ',
+        name: 'vinpearl cần thơ hotel',
+        price: '4.000.000',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }]
@@ -155,10 +155,16 @@ const voucher_vpl_1_0_0Temp = (data) => {
         }
         vouchers.forEach(item => {
             voucherItem += ` <a href="${item.link}" class="voucher_vpl_1_0_0__item">
+            <div class="voucher_vpl_1_0_0__promo">Giảm 1 Triệu ĐK Trước 30 ngày</div>
         <div class="voucher_vpl_1_0_0__img">
             <img width="219" height="148" src="${item.img}" alt="">
         </div>
-        <p>${item.name} <span>${item.price}</span></p>
+        <div class="voucher_vpl_1_0_0__text"> 
+        <p>${item.name}</p>
+        <span>${item.price} 
+        <small>VND</small>
+        </span>
+        </div>
     </a>`
         })
         return `
