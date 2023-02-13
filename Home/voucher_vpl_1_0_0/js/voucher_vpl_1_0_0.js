@@ -4,22 +4,27 @@ const voucher_vpl_1_0_0Data = [{
     name: 'VOUCHER VINPEARL NHA TRANG',
     vouchers: [{
         name: 'VINPEARL NHA TRANG BAY',
+        price: '2.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }, {
         name: 'VINPEARL NHA TRANG BAY',
+        price: '2.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
     }, {
         name: 'VINPEARL NHA TRANG BAY',
+        price: '2.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }, {
         name: 'VINPEARL NHA TRANG BAY',
+        price: '2.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
     }, {
         name: 'VINPEARL NHA TRANG BAY',
+        price: '2.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }]
@@ -28,22 +33,27 @@ const voucher_vpl_1_0_0Data = [{
     name: 'VOUCHER VINPEARL PHÚ QUỐC',
     vouchers: [{
         name: 'VINPEARL DISCOVERY PHÚ QUỐC',
+        price: '3.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }, {
         name: 'VINPEARL DISCOVERY PHÚ QUỐC',
+        price: '3.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
     }, {
         name: 'VINPEARL DISCOVERY PHÚ QUỐC',
+        price: '3.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }, {
         name: 'VINPEARL DISCOVERY PHÚ QUỐC',
+        price: '3.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
     }, {
         name: 'VINPEARL DISCOVERY PHÚ QUỐC',
+        price: '3.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }]
@@ -52,22 +62,27 @@ const voucher_vpl_1_0_0Data = [{
     name: 'VOUCHER VINPEARL Đà nẵng',
     vouchers: [{
         name: 'VINPEARL ĐÀ NẴNG RESORT',
+        price: '5.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }, {
         name: 'VINPEARL ĐÀ NẴNG RESORT',
+        price: '5.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
     }, {
         name: 'VINPEARL ĐÀ NẴNG RESORT',
+        price: '5.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }, {
         name: 'VINPEARL ĐÀ NẴNG RESORT',
+        price: '5.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
     }, {
         name: 'VINPEARL ĐÀ NẴNG RESORT',
+        price: '5.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }]
@@ -76,22 +91,27 @@ const voucher_vpl_1_0_0Data = [{
     name: 'VOUCHER TẠI VINPEARL KHÁC ',
     vouchers: [{
         name: 'VINPEARL HẠ LONG RESORT',
+        price: '6.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }, {
         name: 'VINPEARL HẠ LONG RESORT',
+        price: '6.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
     }, {
         name: 'VINPEARL HẠ LONG RESORT',
+        price: '6.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }, {
         name: 'VINPEARL HẠ LONG RESORT',
+        price: '6.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
     }, {
         name: 'VINPEARL HẠ LONG RESORT',
+        price: '6.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }]
@@ -100,14 +120,17 @@ const voucher_vpl_1_0_0Data = [{
     name: 'VOUCHER KHÁCH SẠN VINPEARL',
     vouchers: [{
         name: 'VINPEARL CẦN THƠ HOTEL',
+        price: '4.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }, {
         name: 'VINPEARL CẦN THƠ HOTEL',
+        price: '4.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic2.jpg`
     }, {
         name: 'VINPEARL CẦN THƠ HOTEL',
+        price: '4.000.000đ',
         link: '#',
         img: `${voucher_vpl_1_0_0Url}images/voucher_vpl_1_0_0-pic1.jpg`
     }]
@@ -135,15 +158,18 @@ const voucher_vpl_1_0_0Temp = (data) => {
         <div class="voucher_vpl_1_0_0__img">
             <img width="219" height="148" src="${item.img}" alt="">
         </div>
-        <p>${item.name}</p>
+        <p>${item.name} <span>${item.price}</span></p>
     </a>`
         })
-        return `<div class="voucher_vpl_1_0_0__wrapper">
+        return `
+        <div class="voucher_vpl_1_0_0__wrapper">
+        <div class="container">
     <h2 class="voucher_vpl_1_0_0__title">${data.name}</h2>
     <div class="voucher_vpl_1_0_0__box">
       ${voucherItem}
     </div>
-    ${data.vouchers.length > limit ? `<div class="voucher_vpl_1_0_0__viewMore"><button onclick="">Xem thêm >></button></div>`:''}
+    ${data.vouchers.length > limit ? `<div class="voucher_vpl_1_0_0__viewMore"><button onclick="">Xem thêm </button><span>➤</span></div>`:''}
+    </div>
 </div>`
 }
 
