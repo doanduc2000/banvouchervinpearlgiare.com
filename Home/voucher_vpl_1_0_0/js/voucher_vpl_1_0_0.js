@@ -171,7 +171,7 @@ const voucher_vpl_1_0_0Temp = (data) => {
     <div class="voucher_vpl_1_0_0__box">
       ${voucherItem}
     </div>
-    ${data.vouchers.length > limit ? `<div class="voucher_vpl_1_0_0__viewMore"><button onclick="">Xem thêm </button><span>➤</span></div>`:''}
+    ${data.vouchers.length > limit ? `<div class="voucher_vpl_1_0_0__viewMore"><button onclick="">Xem thêm </button></div>`:''}
     </div>
 </div>`
 }

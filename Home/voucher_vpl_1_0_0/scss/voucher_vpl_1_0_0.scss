@@ -8,7 +8,7 @@
     }
     &__box {
         display: flex;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
     &__item {
         position: relative;
@@ -78,27 +78,19 @@
     }
     &__viewMore {
         display: flex;
-        justify-content: flex-end;
-        gap: 5px;
+        justify-content: center;
         align-items: center;
-        font-size: 14px;
-        span {
-            transition: all 0.2s linear;
-        }
+        font-size: 16px;
         button {
-            border: none;
-            background: none;
-            margin: 0;
-            padding: 0;
-            text-decoration: underline;
-            font-weight: 500;
+            color: #26bed6;
+            font-weight: bold;
+            border: solid 1px #26bed6;
+            background-color: #fff;
+            padding: 5px 20px;
             cursor: pointer;
-            transition: all 0.2s linear;
-        }
-        &:hover {
-            button,
-            span {
-                color: #dda200;
+            &:hover {
+                color: #fff;
+                background-color: #26bed6;
             }
         }
     }
