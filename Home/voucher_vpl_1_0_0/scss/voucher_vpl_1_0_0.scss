@@ -57,17 +57,7 @@
             font-size: 16px;
             font-weight: bold;
             text-transform: capitalize;
-        }
-        span {
-            color: #f79321;
-            font-weight: 600;
-            display: block;
-            text-align: end;
-            font-size: 22px;
-            small {
-                font-weight: 300;
-                font-size: 13px;
-            }
+            margin: 0;
         }
     }
     &__img {
@@ -81,9 +71,9 @@
     }
     &__wrapper {
         padding: 20px 0;
-        background: #f6f8fA;
+        background: #fff;
         &:nth-child(2n) {
-            background: #ecf0f5;
+            background: #f6f8fA;
         }
     }
     &__viewMore {
@@ -141,9 +131,6 @@
         &__text {
             p {
                 font-size: 14px;
-            }
-            span {
-                font-size: 18px;
             }
         }
         &__promo {

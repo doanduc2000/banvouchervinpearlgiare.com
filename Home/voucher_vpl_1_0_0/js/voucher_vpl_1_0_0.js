@@ -155,15 +155,12 @@ const voucher_vpl_1_0_0Temp = (data) => {
         }
         vouchers.forEach(item => {
             voucherItem += ` <a href="${item.link}" class="voucher_vpl_1_0_0__item">
-            <div class="voucher_vpl_1_0_0__promo">Giảm 1 Triệu ĐK Trước 30 ngày</div>
+            <div class="voucher_vpl_1_0_0__promo">Giá: ${item.price} VND/đêm</div>
         <div class="voucher_vpl_1_0_0__img">
             <img width="219" height="148" src="${item.img}" alt="">
         </div>
         <div class="voucher_vpl_1_0_0__text"> 
         <p>${item.name}</p>
-        <span>${item.price} 
-        <small>VND</small>
-        </span>
         </div>
     </a>`
         })
