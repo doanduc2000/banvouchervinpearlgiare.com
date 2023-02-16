@@ -7,12 +7,13 @@
     &__title {
         font-size: 18px;
         font-weight: bold;
-        text-transform: uppercase;
+        text-transform: capitalize;
         margin: 0 0 10px;
-        color: #182975;
+        color: #3f3b3b;
     }
     &__cate {
         width: 32%;
+        margin-right: 20px;
         &Item {
             width: 100%;
             padding: 10px;
@@ -50,7 +51,7 @@
     }
     &__item {
         width: 33%;
-        margin-left: 20px;
+        margin-right: 20px;
     }
     &__wrapper {
         background: #fff;
@@ -119,12 +120,13 @@
         }
         &__cate {
             width: 100%;
+            margin-right: 0px;
             margin-bottom: 20px;
         }
         &__item {
             width: 47%;
-            &:first-child {
-                margin-left: 0;
+            &:last-child {
+                margin: 0;
             }
         }
     }

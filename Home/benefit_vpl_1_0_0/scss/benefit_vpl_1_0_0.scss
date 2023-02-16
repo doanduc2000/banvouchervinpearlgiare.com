@@ -61,16 +61,16 @@
     &__title {
         font-size: 18px;
         font-weight: bold;
-        text-transform: uppercase;
-        margin: 0 0 10px;
-        color: #182975;
+        text-transform: capitalize;
+        margin: 0 0 15px;
+        color: #3f3b3b;
     }
     @media(max-width: 912px) {
         &__box {
             flex-wrap: wrap;
         }
         &__video {
-            width: 80%;
+            width: 100%;
             margin-bottom: 20px;
         }
         &__content {
@@ -81,10 +81,6 @@
     @media(max-width: 767px) {
         &__title {
             text-align: center;
-        }
-        &__video {
-            width: 100%;
-            margin-bottom: 20px;
         }
         &__content {
             width: 100%;
