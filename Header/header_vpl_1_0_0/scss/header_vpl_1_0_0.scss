@@ -20,6 +20,15 @@
             width: 125px;
             height: auto;
         }
+        &Mb {
+            display: none;
+            text-align: center;
+            padding: 15px 0 10px;
+            img {
+                width: 125px;
+                height: auto;
+            }
+        }
     }
     &__button {
         width: 36px;
@@ -31,7 +40,7 @@
             background-size: contain;
         }
         &--vie {
-            background: url("../images/icon-vie.png")center 0 no-repeat;
+            background: url("../images/icon-vie.png") center 0 no-repeat;
             background-size: contain;
         }
     }
@@ -44,17 +53,18 @@
     &__item {
         border-right: 1px solid #fff;
         position: relative;
-        transition: all .5s;
+        transition: all 0.5s;
         >.header_vpl_1_0_0__link {
             display: inline-block;
-            text-transform: uppercase;
+            text-transform: capitalize;
             padding: 10px 15px;
             font-size: 16px;
+            font-weight: 500;
         }
         &:hover {
             background-color: #f28400;
             .header_vpl_1_0_0__dropdown {
-                display: block
+                display: block;
             }
             >.header_vpl_1_0_0__link {
                 color: #fff;
@@ -71,6 +81,7 @@
         min-width: 350px;
         animation: growDown 300ms ease-in-out forwards;
         transform-origin: top center;
+        z-index: 10;
         li {
             border-top: 1px solid #fff;
             .header_vpl_1_0_0__link {
@@ -78,8 +89,9 @@
                 width: 100%;
                 font-size: 15px;
                 color: #000;
-                text-transform: uppercase;
+                text-transform: capitalize;
                 padding: 10px;
+                font-weight: 500;
             }
             &:hover {
                 >.header_vpl_1_0_0__link {
@@ -110,6 +122,9 @@
                 transition: 0.4s;
             }
         }
+        &__logoMb {
+            display: block;
+        }
         &__nav {
             position: fixed;
             left: 0;
@@ -120,7 +135,8 @@
             height: 100vh;
             overflow-y: auto;
             z-index: 20;
-            transition: all .3s linear;
+            transition: all 0.3s linear;
+            background-color: #fff;
             .container {
                 width: 100%;
                 padding: 0;
@@ -135,7 +151,10 @@
         }
         &__item {
             border-right: none;
-            border-bottom: 1px solid #fff;
+            border-bottom: 1px solid #f28400;
+            a {
+                color: #f28400;
+            }
         }
         &__dropdown {
             position: unset;
@@ -160,12 +179,12 @@
 
 @keyframes growDown {
     0% {
-        transform: scaleY(0)
+        transform: scaleY(0);
     }
     80% {
-        transform: scaleY(1.1)
+        transform: scaleY(1.1);
     }
     100% {
-        transform: scaleY(1)
+        transform: scaleY(1);
     }
 }
