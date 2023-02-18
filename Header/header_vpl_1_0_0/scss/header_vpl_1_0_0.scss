@@ -1,4 +1,9 @@
 .header_vpl_1_0_0 {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
     ul {
         margin: 0;
         padding: 0;
@@ -108,7 +113,7 @@
         bottom: 0;
         top: 0;
         width: 100%;
-        z-index: 10;
+        z-index: 5;
     }
     @media (max-width: 1024px) {
         &__menu {
