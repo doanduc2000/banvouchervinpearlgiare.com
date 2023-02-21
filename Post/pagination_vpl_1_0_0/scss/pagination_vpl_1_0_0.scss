@@ -1,7 +1,6 @@
 .pagination_vpl_1_0_0 {
     text-align: center;
     line-height: 33px;
-    padding-right: 10px;
 }
 
 .pagination_vpl_1_0_0 .page_nav {
@@ -30,13 +29,23 @@
     border-radius: 4px;
     &:hover {
         color: #fff;
-        border: 1px solid #017ec0;
-        background: #017ec0;
+        border: 1px solid #ebab1f;
+        background: #ebab1f;
     }
 }
 
 .pagination_vpl_1_0_0 .wp-pagenavi .current {
     color: #fff;
-    border: 1px solid #017ec0;
-    background: #017ec0;
+    border: 1px solid #ebab1f;
+    background: #ebab1f;
+}
+
+.pagination_vpl_1_0_0__text {
+    margin-right: 10px;
+}
+
+@media(max-width:320px) {
+    .pagination_vpl_1_0_0__text {
+        display: none;
+    }
 }
