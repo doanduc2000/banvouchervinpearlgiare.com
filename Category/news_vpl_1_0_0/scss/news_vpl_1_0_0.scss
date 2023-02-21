@@ -29,4 +29,20 @@
             text-align: justify;
         }
     }
+    @media(max-width: 767px) {
+        &__img {
+            width: 30%;
+        }
+        &__text {
+            width: 70%;
+            p {
+                display: none;
+            }
+        }
+    }
+    @media(max-width: 320px) {
+        &__title {
+            font-size: 12px;
+        }
+    }
 }
