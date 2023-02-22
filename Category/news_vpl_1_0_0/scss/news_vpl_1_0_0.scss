@@ -1,5 +1,19 @@
 .news_vpl_1_0_0 {
     padding: 10px 0 20px;
+    &__header {
+        padding: 15px;
+        margin: 10px 0;
+        background: #f8f8f8;
+        p {
+            font-size: 14px;
+            margin: 0;
+        }
+    }
+    &__sub {
+        font-size: 18px;
+        margin: 0 0 5px 0;
+        font-weight: 600;
+    }
     &__item {
         display: flex;
         margin-bottom: 15px;
