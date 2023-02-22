@@ -1,0 +1,30 @@
+.specialNews_vpl_1_0_0 {
+    margin-bottom: 20px;
+    &__header {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 5px 10px;
+        color: #ebab1f;
+        background: #f2f2f2;
+        margin-bottom: 10px;
+    }
+    ul {
+        margin: 0;
+        padding: 0 0 0 20px;
+        li {
+            margin-bottom: 5px;
+            &:last-child {
+                margin: 0;
+            }
+            a {
+                transition: all 0.2s linear;
+            }
+            &:hover {
+                a {
+                    color: #ebab1f;
+                }
+            }
+        }
+    }
+}
