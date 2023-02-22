@@ -144,6 +144,7 @@
         }
         &__logoMb {
             display: block;
+            border-bottom: 3px solid #f28400;
         }
         &__nav {
             position: fixed;
@@ -171,27 +172,38 @@
         }
         &__item {
             border-right: none;
-            border-bottom: 1px solid #f28400;
+            border-bottom: 1px dotted #ccc;
             span {
                 position: absolute;
                 display: block;
                 right: 10px;
                 top: 10px;
-                color: #f28400;
                 transform: rotateZ(270deg);
+                font-size: 10px;
             }
-            a {
-                color: #f28400;
+            .header_vpl_1_0_0__link {
+                font-size: 14px;
             }
             &:hover {
+                background: #fff;
+                .header_vpl_1_0_0__link {
+                    font-size: 14px;
+                    color: red;
+                }
                 span {
-                    color: #fff;
+                    color: red;
                 }
             }
         }
         &__dropdown {
             position: unset;
             min-width: unset;
+            li {
+                a {
+                    color: #fff !important;
+                    padding: 10px 20px !important;
+                }
+            }
         }
     }
     @media (max-width: 414px) {
