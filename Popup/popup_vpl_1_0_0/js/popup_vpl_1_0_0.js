@@ -1,4 +1,4 @@
-const popUp = document.getElementsByClassName('popup-btn')
+const popUp = document.getElementsByClassName('popup_vpl_1_0_0__btn')
 
 for (let i = 0; i < popUp.length; i++) {
     popUp[i].addEventListener('click', () => {
