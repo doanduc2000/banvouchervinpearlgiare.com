@@ -9,18 +9,19 @@
         padding: 0;
         list-style-type: none;
     }
-    &__top {
-        .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     &__menu {
         display: none;
     }
     &__logo {
         margin: 0;
+        a {
+            display: block;
+        }
         img {
             width: 125px;
             height: auto;
@@ -59,6 +60,9 @@
         border-right: 1px solid #fff;
         position: relative;
         transition: all 0.5s;
+        span {
+            display: none;
+        }
         >.header_vpl_1_0_0__link {
             display: inline-block;
             text-transform: capitalize;
@@ -117,14 +121,25 @@
     }
     @media (max-width: 1024px) {
         &__menu {
-            display: inline-block;
-            cursor: pointer;
-            &Item {
-                width: 30px;
-                height: 3px;
-                background-color: #333;
-                margin: 6px 0;
-                transition: 0.4s;
+            background: #f28400;
+            display: block;
+            span {
+                display: block;
+                padding: 5px 0;
+                color: #fff;
+                text-transform: uppercase;
+                cursor: pointer;
+                &::before {
+                    content: '+';
+                    border: 1px solid #fff;
+                    border-radius: 50%;
+                    display: inline-flex;
+                    width: 20px;
+                    height: 20px;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 5px;
+                }
             }
         }
         &__logoMb {
@@ -157,8 +172,21 @@
         &__item {
             border-right: none;
             border-bottom: 1px solid #f28400;
+            span {
+                position: absolute;
+                display: block;
+                right: 10px;
+                top: 10px;
+                color: #f28400;
+                transform: rotateZ(270deg);
+            }
             a {
                 color: #f28400;
+            }
+            &:hover {
+                span {
+                    color: #fff;
+                }
             }
         }
         &__dropdown {
