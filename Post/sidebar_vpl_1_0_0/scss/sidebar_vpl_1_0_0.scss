@@ -11,6 +11,7 @@
         margin: 0;
     }
     &__voucher {
+        background: #fff;
         ul {
             border: 1px solid#e1e0e0;
             margin: 0 0 15px;
@@ -42,13 +43,15 @@
         }
     }
     &__picture {
+        background: #fff;
         margin: 10px 0 15px;
         img {
-            padding-top: 10px;
+            padding: 10px 0;
         }
     }
     &__newPost {
         margin-bottom: 15px;
+        background: #fff;
         &Img {
             width: 25%;
             img {
