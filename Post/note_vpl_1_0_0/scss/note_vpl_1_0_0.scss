@@ -1,0 +1,11 @@
+.note_vpl_1_0_0 {
+    font-size: 14px;
+    margin: 15px 0;
+    a {
+        transition: all 0.2s linear;
+        font-weight: 600;
+        &:hover {
+            color: #ebab1f;
+        }
+    }
+}
