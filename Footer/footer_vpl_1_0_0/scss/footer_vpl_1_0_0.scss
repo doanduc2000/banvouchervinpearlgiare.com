@@ -54,6 +54,9 @@
         }
     }
     &__list {
+        a {
+            transition: all 0.2s linear;
+        }
         a:hover {
             color: #ebab1f;
         }
@@ -91,7 +94,7 @@
             color: #5e5e5e;
             margin: 2px;
             font-weight: 600;
-            transition: .2s all;
+            transition: all 0.2s linear;
             &:hover {
                 background-color: #F99D3A;
                 color: #fff;
@@ -140,6 +143,10 @@
     &__sitemap {
         a {
             padding: 0 7px;
+            transition: all 0.2s linear;
+            &:hover {
+                color: #fff;
+            }
         }
         a:not(:last-child),
         a:not(:last-child) {
